@@ -2,15 +2,19 @@ import Navbar from "../components/Navbar";
 import MainCar from "../../public/images/carMain.jpeg";
 import { FaAward, FaHandshake, FaPeopleGroup } from "react-icons/fa6";
 import { Ri24HoursLine, RiDiscountPercentLine } from "react-icons/ri";
-import C1 from "../../public/images/c1.jpeg";
-import C2 from "../../public/images/c2.jpeg";
+// import C1 from "../../public/images/c1.jpeg";
+// import C2 from "../../public/images/c2.jpeg";
 import C3 from "../../public/images/c3.jpeg";
-import C4 from "../../public/images/c4.jpg";
+// import C4 from "../../public/images/c4.jpg";
 import C5 from "../../public/images/c5.jpg";
 import C6 from "../../public/images/c6.jpg";
-import Main3 from "../../public/images/3main.jpeg";
-import Main4 from "../../public/images/4Main.jpg";
+// import Main3 from "../../public/images/3main.jpeg";
+// import Main4 from "../../public/images/4Main.jpg";
 import Main5 from "../../public/images/main5.webp";
+import CC1 from "../../public/images/CC1.jpeg";
+import CC2 from "../../public/images/CC2.jpeg";
+import CC3 from "../../public/images/CC3.jpeg";
+import CC4 from "../../public/images/CC4.jpeg";
 
 import { FaCalendarAlt } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
@@ -19,14 +23,14 @@ import Footer from "../components/Footer";
 const cardsData = [
   {
     id: 1,
-    image: C1,
+    image: C5,
     title: "Towing Services",
     content:
       "Fast and secure towing for all vehicle types, 24/7. We transport your vehicle safely to your desired location or garage.",
   },
   {
     id: 2,
-    image: C2,
+    image: CC2,
     title: "Car Recovery",
     content:
       "Broken down or stuck? Our expert team will recover your car quickly and get you back on track.",
@@ -40,14 +44,14 @@ const cardsData = [
   },
   {
     id: 4,
-    image: C4,
+    image: CC4,
     title: "Sports Car Recovery",
     content:
       "Specialised recovery for high-end and sports cars. We handle your luxury vehicle with expert care and precision.",
   },
   {
     id: 5,
-    image: C5,
+    image: CC3,
     title: "Desert Pull-Out Service",
     content:
       "Stuck in the sand? Our powerful desert pull-out vehicles can recover your car from any off-road or desert terrain.",
@@ -65,13 +69,15 @@ const Page = () => {
   return (
     <>
       <div className="container mx-auto">
+        {/* <div> */}
         <Navbar />
 
         {/* Main Image Section*/}
-        <div className="relative h-screen w-full">
+        <div className="relative sm:h-screen w-full py-10">
           {/* Background Image */}
           <img
-            src={MainCar}
+            // src={MainCar}
+            src={CC1}
             alt="Car"
             className="absolute top-0 left-0 w-full h-full object-cover"
           />
@@ -81,17 +87,20 @@ const Page = () => {
 
           {/* Text Content */}
           <div className="relative flex flex-col items-center justify-center h-full text-center text-white px-4 max-w-2xl mx-auto">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            <h1 className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4">
               STRANDED ON THE ROAD?
-              <span className="text-blue-900">CALL SMART CAR</span> RECOVERY
+              <span className="text-blue-900">
+                CALL ANEES CAR TOWING AND
+              </span>{" "}
+              RECOVERY
             </h1>
-            <p className="text-lg md:text-xl mb-6 max-w-2xl">
-              Stuck on the road? Let Smart Car Recovery get you moving again –
-              24/7 support across Dubai, Sharjah, Ajman, and more! We specialize
-              in all types of vehicle recovery – from everyday cars to high-end
-              sports vehicles.
+            <p className="text-base sm:text-lg md:text-xl mb-6 max-w-2xl">
+              Stuck on the road? Let Anees Car Towing and Recovery get you
+              moving again – 24/7 support across Dubai, Sharjah, Ajman, Abu
+              dhabi and more! We specialize in all types of vehicle recovery –
+              from everyday cars to high-end sports vehicles.
             </p>
-            <button className="bg-blue-900 hover:bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg cursor-pointer">
+            <button className="bg-blue-900 hover:bg-blue-600 text-sm sm:text-xl text-white font-semibold px-6 py-3 rounded-lg cursor-pointer">
               EMERGENCY CALL NOW
             </button>
           </div>
@@ -99,9 +108,9 @@ const Page = () => {
 
         {/* Smart Car Recovery Section */}
         <div className="mt-14">
-          <p className="text-4xl md:text-6xl font-bold mb-4 text-center">
-            <span className="text-blue-900">SMART CAR RECOVERY</span> –RECOVERY,
-            TOWING & ROADSIDE HELP
+          <p className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 text-center">
+            <span className="text-blue-900">ANEES CAR TOWING AND RECOVERY</span>{" "}
+            –RECOVERY, TOWING & ROADSIDE HELP
           </p>
         </div>
         <div className="mt-14 max-w-7xl mx-auto px-6">
@@ -170,12 +179,14 @@ const Page = () => {
             {/* Right Column (55%) */}
             <div className="flex flex-col">
               <p className="text-gray-700 mb-4 font-bold">
-                Stuck on the road? Let Smart Car Recovery get you moving again –
-                24/7 support across Dubai, Sharjah, Ajman, and more!
+                Stuck on the road? Let Aness Car Towing And Recovery get you
+                moving again – 24/7 support across Dubai, Sharjah, Ajman, and
+                more!
               </p>
               <p className="text-gray-700 mb-6">
-                At <span className="font-bold">Smart Car Recovery</span>, we
-                provide professional, quick-response vehicle recovery and
+                At{" "}
+                <span className="font-bold">Anees Car Towing And Recovery</span>
+                , we provide professional, quick-response vehicle recovery and
                 roadside assistance services designed to get you back on the
                 road with minimal stress. Whether you’ve broken down, run out of
                 fuel, need a tow, or require a tyre change – our expert team is
@@ -201,11 +212,11 @@ const Page = () => {
             Our <span className="text-blue-900">Services</span>
           </p>
           <p className="mt-5 text-center max-w-5xl mx-auto text-base p-5">
-            Smart Car Recovery offers fast and reliable{" "}
+            Anees Car Towing And Recovery offers fast and reliable{" "}
             <span className="font-bold">towing</span>,{" "}
             <span className="font-bold">car recovery</span>, and{" "}
             <span className="font-bold">roadside assistance</span> across Dubai,
-            Sharjah, Ajman, and nearby areas. Our services include{" "}
+            Sharjah, Ajman, Abu dhabi and nearby areas. Our services include{" "}
             <span className="font-bold">
               tow to nearest garage, sports car recovery, desert pull-out,
               basement pullout, winching
@@ -242,10 +253,10 @@ const Page = () => {
         </div>
 
         {/* Basement PullOut */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-8 py-12 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-8 py-12 sm:mt-10">
           {/* Left Column */}
           <div className="space-y-6">
-            <h2 className="text-4xl font-bold text-black">
+            <h2 className="text-2xl sm:text-4xl font-bold text-black">
               BREAKDOWN?{" "}
               <span className="text-blue-900">
                 BASEMENT PULLOUT? DESERT STUCK?
@@ -253,16 +264,16 @@ const Page = () => {
               – WE WILL BE THERE IN NO TIME!
             </h2>
             <p className="text-lg text-gray-700">
-              At Smart Car Recovery, we specialize in fast, efficient solutions
-              for any vehicle trouble. Whether you’re experiencing a breakdown
-              on the road, need a vehicle pulled out of a basement, or find
-              yourself stuck in the desert, we’ve got you covered. Our expert
-              team is available 24/7 across Dubai, Sharjah, Ajman, and nearby
-              areas, ready to respond quickly. With state-of-the-art equipment
-              and a skilled team, we handle every situation with care and
-              precision. You can trust us to get you back on the road safely and
-              quickly, no matter the challenge. When you’re in need, we’ll be
-              there in no time!
+              At Anees Car Towing And Recovery, we specialize in fast, efficient
+              solutions for any vehicle trouble. Whether you’re experiencing a
+              breakdown on the road, need a vehicle pulled out of a basement, or
+              find yourself stuck in the desert, we’ve got you covered. Our
+              expert team is available 24/7 across Dubai, Sharjah, Ajman, Abu
+              dhabi and nearby areas, ready to respond quickly. With
+              state-of-the-art equipment and a skilled team, we handle every
+              situation with care and precision. You can trust us to get you
+              back on the road safely and quickly, no matter the challenge. When
+              you’re in need, we’ll be there in no time!
             </p>
             <button className="bg-blue-900 font-semibold text-white text-xl md:text-6xl px-6 py-3 rounded-lg hover:bg-blue-800">
               CALL US NOW!
@@ -283,7 +294,8 @@ const Page = () => {
         <div className="relative w-full h-[500px] flex items-center justify-center bg-black mt-10">
           {/* Background Image */}
           <img
-            src={Main3}
+            // src={Main3}
+            src={CC2}
             alt="Background"
             className="absolute inset-0 w-full h-full object-cover opacity-70"
           />
@@ -316,9 +328,9 @@ const Page = () => {
             {/* Review Content */}
             <p className="text-lg text-gray-100 italic">
               I got my car stuck in the basement parking, and I thought it would
-              be a huge hassle. But Smart Car Recovery handled the pullout
-              effortlessly. They arrived promptly and got me out without a
-              scratch. Fantastic service and very reliable!
+              be a huge hassle. But Anees Car Towing And Recovery handled the
+              pullout effortlessly. They arrived promptly and got me out without
+              a scratch. Fantastic service and very reliable!
             </p>
           </div>
         </div>
@@ -332,12 +344,13 @@ const Page = () => {
               <span className="text-blue-900">TYRE FITTING</span>–WE DO IT ALL!
             </h2>
             <p className="text-gray-600 mb-6">
-              At smart car recovery, we offer a comprehensive range of services
-              to handle all your vehicle needs. whether it’s a quick tow, a
-              desert pull-out, or mobile tyre fitting, we’ve got you covered.
-              our team is ready to assist with any roadside emergency, providing
-              you with fast, reliable, and professional service. no matter the
-              situation, we make sure you’re back on the road in no time!
+              At Anees car towing and recovery, we offer a comprehensive range
+              of services to handle all your vehicle needs. whether it’s a quick
+              tow, a desert pull-out, or mobile tyre fitting, we’ve got you
+              covered. our team is ready to assist with any roadside emergency,
+              providing you with fast, reliable, and professional service. no
+              matter the situation, we make sure you’re back on the road in no
+              time!
             </p>
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
@@ -381,7 +394,8 @@ const Page = () => {
 
           {/* Second Column */}
           <div className="flex justify-center items-center">
-            <img src={Main4} alt="Service" className="rounded-lg shadow-lg" />
+            {/* <img src={Main4} alt="Service" className="rounded-lg shadow-lg" /> */}
+            <img src={CC4} alt="Service" className="rounded-lg shadow-lg" />
           </div>
 
           {/* Third Column */}
@@ -398,8 +412,8 @@ const Page = () => {
                   </h4>
                   <p className="text-gray-600">
                     With over six years of experience in the vehicle recovery
-                    industry, Smart Car Recovery has built a strong reputation
-                    for reliability and professionalism.
+                    industry, Anees Car Towing And Recovery has built a strong
+                    reputation for reliability and professionalism.
                   </p>
                 </div>
               </li>
@@ -425,7 +439,7 @@ const Page = () => {
           <div className="grid grid-cols-1 md:grid-cols-[67%_30%] items-center gap-8 px-5">
             {/* Left Column (70%) */}
             <div>
-              <h2 className="text-4xl font-bold mb-4">
+              <h2 className="text-2xl sm:text-4xl font-bold mb-4">
                 JUMP STARTS, –{" "}
                 <span className="text-blue-900">
                   PULL-OUTS & EXPERT RECOVERY
@@ -433,24 +447,25 @@ const Page = () => {
                 24/7 ACROSS DUBAI
               </h2>
               <p className="mb-6">
-                At Smart Car Recovery, we offer reliable jump starts, pull-outs,
-                and expert recovery services, available around the clock.
-                Whether your car has a dead battery or you’re stuck in a tight
-                spot, our skilled team is just a call away. We specialize in
-                quick and safe recovery, from standard vehicles to challenging
-                situations like desert or basement pull-outs. Our
+                At Anees Car Towing And Recovery, we offer reliable jump starts,
+                pull-outs, and expert recovery services, available around the
+                clock. Whether your car has a dead battery or you’re stuck in a
+                tight spot, our skilled team is just a call away. We specialize
+                in quick and safe recovery, from standard vehicles to
+                challenging situations like desert or basement pull-outs. Our
                 state-of-the-art equipment ensures the job is done efficiently
                 without any damage to your car. With 24/7 availability, we
                 provide peace of mind knowing we’re always ready to assist, no
                 matter the time or place in Dubai.
               </p>
-              <button className="bg-blue-900 text-4xl hover:bg-blue-800 text-white px-6 py-3 rounded-lg shadow-md transition">
+              <button className="bg-blue-900 text-xl sm:text-4xl hover:bg-blue-800 text-white px-6 py-3 rounded-lg shadow-md transition">
                 EMERGENCY TOWING
               </button>
             </div>
 
             {/* Right Column (30%) */}
             <div className="flex justify-center">
+              {/* <img src={Main5} alt="Service" className="rounded-lg shadow-lg" /> */}
               <img src={Main5} alt="Service" className="rounded-lg shadow-lg" />
             </div>
           </div>
@@ -458,20 +473,20 @@ const Page = () => {
 
         {/* Car Towing Section */}
         <div className="text-center p-5 md:p-0">
-          <p className="text-4xl text-center max-w-lg mx-auto mt-10 font-bold">
+          <p className=" text-2xl sm:text-4xl text-center max-w-lg mx-auto mt-10 font-bold">
             FROM CAR TOWING TO{" "}
             <span className="text-blue-900 font-bold">DESERT PULL-OUT</span>
           </p>
           <p className="mt-5 text-center max-w-5xl mx-auto">
-            At Smart Car Recovery, we provide a wide range of services, from
-            basic roadside assistance to expert vehicle recovery. Whether you
-            need a jump start, fuel delivery, or a quick tyre change, our team
-            is always ready to help. We also specialize in more complex recovery
-            situations, such as desert pull-outs and basement extractions. With
-            our professional expertise and 24/7 availability, we ensure you’re
-            never left stranded on the road.
+            At Anees Car Towing And Recovery, we provide a wide range of
+            services, from basic roadside assistance to expert vehicle recovery.
+            Whether you need a jump start, fuel delivery, or a quick tyre
+            change, our team is always ready to help. We also specialize in more
+            complex recovery situations, such as desert pull-outs and basement
+            extractions. With our professional expertise and 24/7 availability,
+            we ensure you’re never left stranded on the road.
           </p>
-          <button className="bg-blue-900 mb-10 mt-5 text-2xl hover:bg-blue-800 text-white px-6 py-3 rounded-lg shadow-md transition">
+          <button className="bg-blue-900 mb-10 mt-5 text-xl sm:text-2xl hover:bg-blue-800 text-white px-6 py-3 rounded-lg shadow-md transition">
             BREAKDOWN RECOVERY
           </button>
         </div>
