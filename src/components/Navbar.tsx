@@ -9,10 +9,18 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center relative">
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-6">
-            <li className="hover:text-gray-300 cursor-pointer">Home</li>
-            <li className="hover:text-gray-300 cursor-pointer">About</li>
-            <li className="hover:text-gray-300 cursor-pointer">Services</li>
-            <li className="hover:text-gray-300 cursor-pointer">Contact</li>
+            <a href="#home">
+              <li className="hover:text-gray-300 cursor-pointer">Home</li>
+            </a>
+            <a href="#about">
+              <li className="hover:text-gray-300 cursor-pointer">About</li>
+            </a>
+            <a href="#services">
+              <li className="hover:text-gray-300 cursor-pointer">Services</li>
+            </a>
+            <a href="#contact">
+              <li className="hover:text-gray-300 cursor-pointer">Contact</li>
+            </a>
           </ul>
 
           {/* Call Us Now Button (always visible on desktop) */}
@@ -43,7 +51,7 @@ const Navbar = () => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
-                    d="M6 18L18 6M6 6l12 12"
+                    d="M4 6h16M4 12h16M4 18h16"
                   />
                 ) : (
                   <path
@@ -65,12 +73,45 @@ const Navbar = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out z-50`}
       >
-        <div className="p-4 space-y-3">
+        {/* Close Button (TOP-RIGHT INSIDE SIDEBAR) */}
+        <button
+          className="absolute top-4 right-4 focus:outline-none"
+          onClick={() => setIsOpen(false)}
+        >
+          <svg
+            className="w-7 h-7"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+        <div className="p-4 space-y-5">
           <ul className="space-y-2">
-            <li className="hover:text-gray-300 cursor-pointer">Home</li>
-            <li className="hover:text-gray-300 cursor-pointer">About</li>
-            <li className="hover:text-gray-300 cursor-pointer">Services</li>
-            <li className="hover:text-gray-300 cursor-pointer">Contact</li>
+            <a href="#home">
+              <li className="hover:text-gray-300 cursor-pointer mt-10 mb-2">
+                Home
+              </li>
+            </a>
+            <a href="#about">
+              <li className="hover:text-gray-300 cursor-pointer mb-2">About</li>
+            </a>
+            <a href="#services">
+              <li className="hover:text-gray-300 cursor-pointer mb-2">
+                Services
+              </li>
+            </a>
+            <a href="#contact">
+              <li className="hover:text-gray-300 cursor-pointer mb-2">
+                Contact
+              </li>
+            </a>
           </ul>
 
           {/* Call Us Now Button (mobile version) */}

@@ -55,6 +55,9 @@ const Footer = () => {
               More Info
             </h3>
             <p className="mb-2 cursor-pointer hover:text-blue-600">
+              CEO: <span className="text-blue-900">Naseeb Haider</span>
+            </p>
+            <p className="mb-2 cursor-pointer hover:text-blue-600">
               Phone Number:{" "}
               <a href="tel:0561623688">
                 <span className="text-blue-900">0561623688</span>
@@ -63,6 +66,15 @@ const Footer = () => {
             <p className="mb-2 cursor-pointer hover:text-blue-600">
               Location:{" "}
               <span className="text-blue-900">Aljurf Industrial 2 Ajman</span>
+            </p>
+            <p className="mb-2 cursor-pointer hover:text-blue-600">
+              E-mail:{" "}
+              <a
+                href="mailto:aneesfasttrack@gmail.com"
+                className="text-blue-900 hover:underline"
+              >
+                aneesfasttrack@gmail.com
+              </a>
             </p>
             <p className="mb-2 cursor-pointer hover:text-blue-600">
               Areas We Cover:{" "}
