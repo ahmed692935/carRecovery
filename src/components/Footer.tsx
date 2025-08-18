@@ -15,7 +15,7 @@ const Footer = () => {
 
           {/* Column 2 */}
           <div>
-            <h3 className="text-lg font-bold text-blue-900 mb-4">
+            <h3 className="text-lg font-bold text-blue-600 mb-4">
               Useful Links
             </h3>
             <p className="mb-2 cursor-pointer hover:text-blue-400">Home</p>
@@ -29,7 +29,7 @@ const Footer = () => {
 
           {/* Column 3 */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-blue-900">
+            <h3 className="text-lg font-bold mb-4 text-blue-600">
               Our Services
             </h3>
             <p className="mb-2 cursor-pointer hover:text-blue-400">
@@ -51,7 +51,7 @@ const Footer = () => {
 
           {/* Column 4 */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-blue-900">
+            <h3 className="text-lg font-semibold mb-4 text-blue-600">
               More Info
             </h3>
             <p className="mb-2 cursor-pointer hover:text-blue-400">
@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
       <div className="bg-blue-900 p-7">
         {" "}
-        <p className="text-white">
+        <p className="text-white text-center">
           ©2025.Smart car Recovery UAE . All Rights Reserved.{" "}
         </p>
       </div>

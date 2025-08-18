@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-900 text-white shadow-md">
+    <nav className="bg-black text-white shadow-md">
       <div>
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center relative">
           {/* Desktop Menu */}
@@ -16,7 +16,7 @@ const Navbar = () => {
           </ul>
 
           {/* Call Us Now Button (always visible on desktop) */}
-          <button className="hidden mx-10 md:block cursor-pointer text-start bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-4 py-2 rounded-lg">
+          <button className="hidden mx-10 md:block cursor-pointer font-bold text-start bg-blue-900  hover:bg-blue-600 text-white px-4 py-2 rounded-lg">
             Call Us Now
           </button>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
 
       {/* Mobile Sidebar (Left Slide-in) */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-blue-900 text-white transform ${
+        className={`fixed top-0 left-0 h-full w-64 bg-black text-white transform ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out z-50`}
       >
@@ -68,7 +68,7 @@ const Navbar = () => {
           </ul>
 
           {/* Call Us Now Button (mobile version) */}
-          <button className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-4 py-2 rounded-lg mt-2 cursor-pointer">
+          <button className="w-full bg-blue-900 hover:bg-blue-600 font-bold text-white px-4 py-2 rounded-lg mt-2 cursor-pointer">
             Call Us Now
           </button>
         </div>

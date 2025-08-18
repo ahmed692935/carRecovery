@@ -457,7 +457,7 @@ const Page = () => {
         </div>
 
         {/* Car Towing Section */}
-        <div className="text-center">
+        <div className="text-center p-5 md:p-0">
           <p className="text-4xl text-center max-w-lg mx-auto mt-10 font-bold">
             FROM CAR TOWING TO{" "}
             <span className="text-blue-900 font-bold">DESERT PULL-OUT</span>
