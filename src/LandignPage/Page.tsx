@@ -100,9 +100,11 @@ const Page = () => {
               dhabi and more! We specialize in all types of vehicle recovery –
               from everyday cars to high-end sports vehicles.
             </p>
-            <button className="bg-blue-900 hover:bg-blue-600 text-sm sm:text-xl text-white font-semibold px-6 py-3 rounded-lg cursor-pointer">
-              EMERGENCY CALL NOW
-            </button>
+            <a href="tel:0561623688">
+              <button className="bg-blue-900 hover:bg-blue-600 text-sm sm:text-xl text-white font-semibold px-6 py-3 rounded-lg cursor-pointer">
+                EMERGENCY CALL NOW
+              </button>
+            </a>
           </div>
         </div>
 
