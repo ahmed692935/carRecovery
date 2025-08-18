@@ -16,9 +16,15 @@ const Navbar = () => {
           </ul>
 
           {/* Call Us Now Button (always visible on desktop) */}
-          <button className="hidden mx-10 md:block cursor-pointer font-bold text-start bg-blue-900  hover:bg-blue-600 text-white px-4 py-2 rounded-lg">
+          {/* <button className="hidden mx-10 md:block cursor-pointer font-bold text-start bg-blue-900  hover:bg-blue-600 text-white px-4 py-2 rounded-lg">
             Call Us Now
-          </button>
+          </button> */}
+          <a
+            href="tel:0561623688"
+            className="hidden mx-10 md:block cursor-pointer font-bold text-start bg-blue-900 hover:bg-blue-600 text-white px-4 py-2 rounded-lg"
+          >
+            Call Us Now
+          </a>
 
           {/* Mobile Toggle Button (RIGHT SIDE) */}
           <div className="p-5 md:p-0">
@@ -68,9 +74,11 @@ const Navbar = () => {
           </ul>
 
           {/* Call Us Now Button (mobile version) */}
-          <button className="w-full bg-blue-900 hover:bg-blue-600 font-bold text-white px-4 py-2 rounded-lg mt-2 cursor-pointer">
-            Call Us Now
-          </button>
+          <a href="tel:0561623688">
+            <button className="w-full bg-blue-900 hover:bg-blue-600 font-bold text-white px-4 py-2 rounded-lg mt-2 cursor-pointer">
+              Call Us Now
+            </button>
+          </a>
         </div>
       </div>
     </nav>

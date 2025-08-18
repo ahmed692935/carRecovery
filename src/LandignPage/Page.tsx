@@ -275,9 +275,11 @@ const Page = () => {
               back on the road safely and quickly, no matter the challenge. When
               you’re in need, we’ll be there in no time!
             </p>
-            <button className="bg-blue-900 font-semibold text-white text-xl md:text-6xl px-6 py-3 rounded-lg hover:bg-blue-800">
-              CALL US NOW!
-            </button>
+            <a href="tel:0561623688">
+              <button className="bg-blue-900 font-semibold text-white text-xl md:text-6xl cursor-pointer px-6 py-3 rounded-lg hover:bg-blue-800">
+                CALL US NOW!
+              </button>
+            </a>
           </div>
 
           {/* Right Column */}
@@ -458,9 +460,11 @@ const Page = () => {
                 provide peace of mind knowing we’re always ready to assist, no
                 matter the time or place in Dubai.
               </p>
-              <button className="bg-blue-900 text-xl sm:text-4xl hover:bg-blue-800 text-white px-6 py-3 rounded-lg shadow-md transition">
-                EMERGENCY TOWING
-              </button>
+              <a href="tel:0561623688">
+                <button className="bg-blue-900 text-xl sm:text-4xl cursor-pointer hover:bg-blue-800 text-white px-6 py-3 rounded-lg shadow-md transition">
+                  EMERGENCY TOWING
+                </button>
+              </a>
             </div>
 
             {/* Right Column (30%) */}
