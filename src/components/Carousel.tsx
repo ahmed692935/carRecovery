@@ -134,12 +134,12 @@ const CarouselSection = () => {
       </div>
 
       {/* Custom styles to hide default Swiper navigation */}
-      <style jsx>{`
+      {/* <style jsx>{`
         .swiper-button-prev,
         .swiper-button-next {
           display: none !important;
         }
-      `}</style>
+      `}</style> */}
     </div>
   );
 };
