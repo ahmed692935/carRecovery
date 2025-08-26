@@ -6,7 +6,7 @@ const Footer = () => {
           {/* Column 1 */}
           <div>
             <p className="text-white">
-              At Anees Car Towing And Recovery Services Ajman, we provide a wide
+              At Anees Car Towing And Recovery Service Ajman, we provide a wide
               range of services, from basic roadside assistance to expert
               vehicle recovery. Whether you need a jump start, fuel delivery, or
               a quick tyre change, our team is always ready to help.
@@ -88,7 +88,7 @@ const Footer = () => {
       <div className="bg-blue-900 p-7">
         {" "}
         <p className="text-white text-center">
-          ©{new Date().getFullYear()}. Anees Car Towing And Recovery Services
+          ©{new Date().getFullYear()}. Anees Car Towing And Recovery Service
           Ajman UAE. All Rights Reserved.
         </p>
       </div>
