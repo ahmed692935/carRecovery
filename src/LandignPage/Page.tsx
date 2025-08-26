@@ -85,7 +85,7 @@ const Page = () => {
                 <span className="text-blue-900">
                   CALL ANEES CAR TOWING AND
                 </span>{" "}
-                RECOVERY SERVICES AJMAN
+                RECOVERY SERVICE AJMAN
               </h1>
               <p className="text-base sm:text-lg md:text-xl mb-6 max-w-4xl">
                 Stuck on the road? Let Anees Car Towing and Recovery Service
