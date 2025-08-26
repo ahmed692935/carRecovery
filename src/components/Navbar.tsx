@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-black text-white shadow-md">
+    <nav className="sticky top-0 w-full z-50 bg-black text-white shadow-md">
       <div>
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center relative">
           {/* Desktop Menu */}
@@ -23,10 +23,6 @@ const Navbar = () => {
             </a>
           </ul>
 
-          {/* Call Us Now Button (always visible on desktop) */}
-          {/* <button className="hidden mx-10 md:block cursor-pointer font-bold text-start bg-blue-900  hover:bg-blue-600 text-white px-4 py-2 rounded-lg">
-            Call Us Now
-          </button> */}
           <a
             href="tel:0561623688"
             className="hidden mx-10 md:block cursor-pointer font-bold text-start bg-blue-900 hover:bg-blue-600 text-white px-4 py-2 rounded-lg"
