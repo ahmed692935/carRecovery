@@ -90,20 +90,20 @@ const Navbar = () => {
         </button>
         <div className="p-4 space-y-5">
           <ul className="space-y-2">
-            <a href="#home">
+            <a href="#home" onClick={() => setIsOpen(false)}>
               <li className="hover:text-gray-300 cursor-pointer mt-10 mb-2">
                 Home
               </li>
             </a>
-            <a href="#about">
+            <a href="#about" onClick={() => setIsOpen(false)}>
               <li className="hover:text-gray-300 cursor-pointer mb-2">About</li>
             </a>
-            <a href="#services">
+            <a href="#services" onClick={() => setIsOpen(false)}>
               <li className="hover:text-gray-300 cursor-pointer mb-2">
                 Services
               </li>
             </a>
-            <a href="#contact">
+            <a href="#contact" onClick={() => setIsOpen(false)}>
               <li className="hover:text-gray-300 cursor-pointer mb-2">
                 Contact
               </li>

@@ -58,51 +58,6 @@ const reviews = [
   },
 ];
 
-// const cardsData = [
-//   {
-//     id: 1,
-//     image: C5,
-//     title: "Towing Services",
-//     content:
-//       "Fast and secure towing for all vehicle types, 24/7. We transport your vehicle safely to your desired location or garage.",
-//   },
-//   {
-//     id: 2,
-//     image: CC2,
-//     title: "Car Recovery",
-//     content:
-//       "Broken down or stuck? Our expert team will recover your car quickly and get you back on track.",
-//   },
-//   {
-//     id: 3,
-//     image: CC4,
-//     title: "Tow to Nearest Garage",
-//     content:
-//       "We’ll tow your vehicle to the nearest trusted garage for repairs. Hassle-free and efficient service wherever you are.",
-//   },
-//   {
-//     id: 4,
-//     image: C3,
-//     title: "Sports Car Recovery",
-//     content:
-//       "Specialised recovery for high-end and sports cars. We handle your luxury vehicle with expert care and precision.",
-//   },
-//   {
-//     id: 5,
-//     image: CC5,
-//     title: "Desert Pull-Out Service",
-//     content:
-//       "Stuck in the sand? Our powerful desert pull-out vehicles can recover your car from any off-road or desert terrain.",
-//   },
-//   {
-//     id: 6,
-//     image: C6,
-//     title: "Basement Pullout",
-//     content:
-//       "Vehicle stuck in a basement or underground parking? We provide smooth and damage-free extraction.",
-//   },
-// ];
-
 const Page = () => {
   return (
     <>
@@ -293,7 +248,7 @@ const Page = () => {
               </span>
               , and more.
             </p>
-            <CarouselSection/>
+            <CarouselSection />
             {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto p-6 mt-5">
               {cardsData.map((card) => (
                 <div
