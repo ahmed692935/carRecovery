@@ -85,12 +85,12 @@ const Page = () => {
                 <span className="text-blue-900">
                   CALL ANEES CAR TOWING AND
                 </span>{" "}
-                RECOVERY AJMAN
+                RECOVERY SERVICES AJMAN
               </h1>
               <p className="text-base sm:text-lg md:text-xl mb-6 max-w-4xl">
-                Stuck on the road? Let Anees Car Towing and Recovery Ajman get
-                you moving again – 24/7 support across Dubai, Sharjah, Ajman,
-                Abu dhabi and more! We specialize in all types of vehicle
+                Stuck on the road? Let Anees Car Towing and Recovery Services
+                Ajman get you moving again – 24/7 support across Dubai, Sharjah,
+                Ajman, Abu dhabi and more! We specialize in all types of vehicle
                 recovery – from everyday cars to high-end sports vehicles.
               </p>
               <a href="tel:0561623688">
@@ -128,7 +128,7 @@ const Page = () => {
           <div className="mt-14 px-5 md:px-0">
             <p className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 text-center">
               <span className="text-blue-900">
-                ANEES CAR TOWING AND RECOVERY AJMAN
+                ANEES CAR TOWING AND RECOVERY SERVICES AJMAN
               </span>{" "}
               –RECOVERY, TOWING & ROADSIDE HELP
             </p>
@@ -138,14 +138,14 @@ const Page = () => {
               {/* Left Column (55%) */}
               <div className="flex flex-col">
                 <p className="text-gray-700 mb-4 font-bold">
-                  Stuck on the road? Let Anees Car Towing And Recovery Ajman get
-                  you moving again – 24/7 support across Dubai, Sharjah, Ajman,
-                  and more!
+                  Stuck on the road? Let Anees Car Towing And Recovery Services
+                  Ajman get you moving again – 24/7 support across Dubai,
+                  Sharjah, Ajman, and more!
                 </p>
                 <p className="text-gray-700 mb-6">
                   At{" "}
                   <span className="font-bold">
-                    Anees Car Towing And Recovery Ajman
+                    Anees Car Towing And Recovery Services Ajman
                   </span>
                   , we provide professional, quick-response vehicle recovery and
                   roadside assistance services designed to get you back on the
@@ -236,8 +236,8 @@ const Page = () => {
               Our <span className="text-blue-900">Services</span>
             </p>
             <p className="mt-5 text-center max-w-5xl mx-auto text-base p-5">
-              Anees Car Towing And Recovery Ajman offers fast and reliable{" "}
-              <span className="font-bold">towing</span>,{" "}
+              Anees Car Towing And Recovery Services Ajman offers fast and
+              reliable <span className="font-bold">towing</span>,{" "}
               <span className="font-bold">car recovery</span>, and{" "}
               <span className="font-bold">roadside assistance</span> across
               Dubai, Sharjah, Ajman, Abu dhabi and nearby areas. Our services
@@ -290,16 +290,16 @@ const Page = () => {
                 24/7 ACROSS DUBAI
               </h2>
               <p className="mb-6">
-                At Anees Car Towing And Recovery Ajman, we offer reliable jump
-                starts, pull-outs, and expert recovery services, available
-                around the clock. Whether your car has a dead battery or you’re
-                stuck in a tight spot, our skilled team is just a call away. We
-                specialize in quick and safe recovery, from standard vehicles to
-                challenging situations like desert or basement pull-outs. Our
-                state-of-the-art equipment ensures the job is done efficiently
-                without any damage to your car. With 24/7 availability, we
-                provide peace of mind knowing we’re always ready to assist, no
-                matter the time or place in Dubai.
+                At Anees Car Towing And Recovery Services Ajman, we offer
+                reliable jump starts, pull-outs, and expert recovery services,
+                available around the clock. Whether your car has a dead battery
+                or you’re stuck in a tight spot, our skilled team is just a call
+                away. We specialize in quick and safe recovery, from standard
+                vehicles to challenging situations like desert or basement
+                pull-outs. Our state-of-the-art equipment ensures the job is
+                done efficiently without any damage to your car. With 24/7
+                availability, we provide peace of mind knowing we’re always
+                ready to assist, no matter the time or place in Dubai.
               </p>
               <a href="tel:0561623688">
                 <button className="bg-blue-900 text-xl sm:text-4xl cursor-pointer hover:bg-blue-800 text-white px-6 py-3 rounded-lg shadow-md transition">
@@ -328,8 +328,8 @@ const Page = () => {
               – WE WILL BE THERE IN NO TIME!
             </h2>
             <p className="text-lg text-gray-700">
-              At Anees Car Towing And Recovery Ajman, we specialize in fast,
-              efficient solutions for any vehicle trouble. Whether you’re
+              At Anees Car Towing And Recovery Services Ajman, we specialize in
+              fast, efficient solutions for any vehicle trouble. Whether you’re
               experiencing a breakdown on the road, need a vehicle pulled out of
               a basement, or find yourself stuck in the desert, we’ve got you
               covered. Our expert team is available 24/7 across Dubai, Sharjah,
@@ -367,13 +367,13 @@ const Page = () => {
               <span className="text-blue-900">TYRE FITTING</span>–WE DO IT ALL!
             </h2>
             <p className="text-gray-600 mb-6">
-              At Anees car towing and recovery ajman, we offer a comprehensive
-              range of services to handle all your vehicle needs. whether it’s a
-              quick tow, a desert pull-out, or mobile tyre fitting, we’ve got
-              you covered. our team is ready to assist with any roadside
-              emergency, providing you with fast, reliable, and professional
-              service. no matter the situation, we make sure you’re back on the
-              road in no time!
+              At Anees car towing and recovery services ajman, we offer a
+              comprehensive range of services to handle all your vehicle needs.
+              whether it’s a quick tow, a desert pull-out, or mobile tyre
+              fitting, we’ve got you covered. our team is ready to assist with
+              any roadside emergency, providing you with fast, reliable, and
+              professional service. no matter the situation, we make sure you’re
+              back on the road in no time!
             </p>
             <ul className="space-y-3">
               <li className="flex items-center gap-2">
@@ -435,8 +435,9 @@ const Page = () => {
                   </h4>
                   <p className="text-gray-600">
                     With over six years of experience in the vehicle recovery
-                    industry, Anees Car Towing And Recovery Ajman has built a
-                    strong reputation for reliability and professionalism.
+                    industry, Anees Car Towing And Recovery Services Ajman has
+                    built a strong reputation for reliability and
+                    professionalism.
                   </p>
                 </div>
               </li>
@@ -559,13 +560,13 @@ const Page = () => {
             <span className="text-blue-900 font-bold">DESERT PULL-OUT</span>
           </p>
           <p className="mt-5 text-center max-w-5xl mx-auto">
-            At Anees Car Towing And Recovery Ajman, we provide a wide range of
-            services, from basic roadside assistance to expert vehicle recovery.
-            Whether you need a jump start, fuel delivery, or a quick tyre
-            change, our team is always ready to help. We also specialize in more
-            complex recovery situations, such as desert pull-outs and basement
-            extractions. With our professional expertise and 24/7 availability,
-            we ensure you’re never left stranded on the road.
+            At Anees Car Towing And Recovery Services Ajman, we provide a wide
+            range of services, from basic roadside assistance to expert vehicle
+            recovery. Whether you need a jump start, fuel delivery, or a quick
+            tyre change, our team is always ready to help. We also specialize in
+            more complex recovery situations, such as desert pull-outs and
+            basement extractions. With our professional expertise and 24/7
+            availability, we ensure you’re never left stranded on the road.
           </p>
           <button className="bg-blue-900 mb-10 mt-5 text-xl sm:text-2xl hover:bg-blue-800 text-white px-6 py-3 rounded-lg shadow-md transition">
             BREAKDOWN RECOVERY
