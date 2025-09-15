@@ -18,12 +18,37 @@ const Footer = () => {
             <h3 className="text-lg font-bold text-blue-900 mb-4">
               Useful Links
             </h3>
-            <p className="mb-2 cursor-pointer hover:text-blue-600">Home</p>
+            {/* <p className="mb-2 cursor-pointer hover:text-blue-600">Home</p>
             <p className="mb-2 cursor-pointer hover:text-blue-600">About Us</p>
             <p className="mb-2 cursor-pointer hover:text-blue-600">Services</p>
             <p className="mb-2 cursor-pointer hover:text-blue-600">
               Why Choose Us
-            </p>
+            </p> */}
+            <a
+              href="#home"
+              className="mb-2 block cursor-pointer hover:text-blue-600"
+            >
+              Home
+            </a>
+            <a
+              href="#about"
+              className="mb-2 block cursor-pointer hover:text-blue-600"
+            >
+              About Us
+            </a>
+            <a
+              href="#services"
+              className="mb-2 block cursor-pointer hover:text-blue-600"
+            >
+              Services
+            </a>
+            <a
+              href="#why"
+              className="mb-2 block cursor-pointer hover:text-blue-600"
+            >
+              Why Choose Us
+            </a>
+
             <p className="mb-2 cursor-pointer hover:text-blue-600">Contact</p>
           </div>
 
