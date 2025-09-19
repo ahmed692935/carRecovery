@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <div className="bg-black text-white px-10 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap- container mx-auto">
           {/* Column 1 */}
           <div>
             <p className="text-white">
@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
 
           {/* Column 2 */}
-          <div>
+          <div className="md:mx-20">
             <h3 className="text-lg font-bold text-blue-900 mb-4">
               Useful Links
             </h3>

@@ -62,7 +62,8 @@ const reviews = [
 const Page = () => {
   return (
     <>
-      <div className="container mx-auto">
+      {/* <div className="container mx-auto"> */}
+      <div>
         {/* <div> */}
         <Navbar />
         {/* Main Image Section*/}
@@ -125,7 +126,7 @@ const Page = () => {
           </div>
         </section>
         {/* Smart Car Recovery Section */}
-        <section id="about">
+        <section id="about" className="container mx-auto">
           <div className="mt-14 px-5 md:px-0">
             <p className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 text-center">
               <span className="text-blue-900">
@@ -280,7 +281,7 @@ const Page = () => {
 
         {/* PullOut Section */}
         <div className="bg-black py-10 text-white mt-10">
-          <div className="grid grid-cols-1 md:grid-cols-[67%_30%] items-center gap-8 px-5">
+          <div className="grid grid-cols-1 md:grid-cols-[67%_30%] items-center gap-8 px-5 container mx-auto">
             {/* Left Column (70%) */}
             <div>
               <h2 className="text-2xl sm:text-4xl font-bold mb-4">
@@ -318,7 +319,7 @@ const Page = () => {
         </div>
 
         {/* Basement PullOut */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-8 py-12 sm:mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-8 py-12 sm:mt-10 container mx-auto">
           {/* Left Column */}
           <div className="space-y-6">
             <h2 className="text-2xl sm:text-4xl font-bold text-black">
@@ -360,7 +361,7 @@ const Page = () => {
         <hr className="!p-[1px] bg-blue-900 mx-10 my-5"></hr>
 
         {/* Tyre Fitting Services */}
-        <div className="grid grid-cols-1 md:grid-cols-[28%_30%_30%] gap-8 p-8">
+        <div className="grid grid-cols-1 md:grid-cols-[28%_30%_30%] gap-8 p-8 container mx-auto">
           {/* First Column */}
           <div>
             <h2 className="text-2xl font-bold mb-4">
@@ -514,7 +515,10 @@ const Page = () => {
           <div className="absolute inset-0 bg-black/40" />
 
           {/* Content */}
-          <div className="relative z-10 max-w-7xl mx-auto px-6" id="why">
+          <div
+            className="relative z-10 max-w-7xl mx-auto px-6 container"
+            id="why"
+          >
             <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-white">
               Customer Reviews
             </h2>

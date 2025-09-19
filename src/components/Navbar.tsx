@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 w-full z-50 bg-black text-white shadow-md">
       <div>
-        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-center relative">
+        <div className="max-w-7xl container mx-auto px-4 py-3 flex items-center justify-center relative">
           {/* Desktop Menu */}
           <ul className="hidden md:flex space-x-6">
             <a href="#home">
